@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Astra Client | Ascend Beyond</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:#08080d;color:#f5f3ff;font-family:Arial,Helvetica,sans-serif}
+nav{height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 8%;border-bottom:1px solid #ffffff12;background:#09090ff2}
+.logo{font-size:22px;font-weight:900;letter-spacing:3px}.logo span{color:#9670ff}
+nav a{color:#aaa4bd;text-decoration:none;margin-left:24px;font-size:13px}
+nav a:hover{color:#b49aff}
+.hero{min-height:570px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:70px 20px;background:radial-gradient(ellipse at 50% 35%,#5126a52b,transparent 55%)}
+.tag{color:#a995ff;border:1px solid #8a65ff50;border-radius:30px;padding:8px 15px;font-size:10px;letter-spacing:3px}
+h1{font-size:clamp(48px,9vw,92px);line-height:1.05;letter-spacing:-4px;margin:27px 0 18px;font-weight:900}
+.gradient{background:linear-gradient(90deg,#a78bfa,#6f8dff,#c084fc);background-clip:text;-webkit-background-clip:text;color:transparent}
+.hero p{color:#aaa5ba;max-width:510px;line-height:1.8;font-size:15px}
+.buttons{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap;justify-content:center}
+.btn{display:inline-block;padding:14px 23px;border-radius:7px;text-decoration:none;font-weight:bold;font-size:13px;cursor:pointer;border:1px solid #ffffff20;color:white;background:#ffffff08}
+.primary{background:linear-gradient(100deg,#7545e8,#635bfa);border:0;box-shadow:0 5px 30px #7545e82b}
+section{padding:80px 8%}
+.heading{text-align:center;margin-bottom:40px}
+.heading h2{font-size:clamp(30px,5vw,45px);margin:13px 0}
+.heading p{color:#9892aa;font-size:14px}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.card{background:linear-gradient(145deg,#151320,#0e0d15);border:1px solid #292337;border-radius:12px;padding:25px}
+.icon{color:#a78bfa;font-size:27px}
+.card h3{margin:16px 0 9px;font-size:18px}
+.card p{color:#a7a1b6;font-size:13px;line-height:1.8}
+#pricing{background:#0b0a12}
+.prices{max-width:790px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.price-card{position:relative;background:#12101c;border:1px solid #332849;border-radius:13px;padding:29px}
+.price-card.best{border-color:#8a65ff;box-shadow:0 0 35px #7545e815}
+.label{font-size:10px;color:#b5a0ff;letter-spacing:2px;font-weight:bold}
+.price-card h3{font-size:23px;margin:17px 0 8px}
+.price{font-size:43px;font-weight:900;margin:12px 0}
+.price small{font-size:12px;color:#aaa4bd;font-weight:normal}
+.price-card p,.price-card li{font-size:13px;color:#aaa4bd;line-height:1.8}
+.price-card ul{list-style:none;margin:20px 0}
+.price-card li:before{content:"✓";color:#a78bfa;margin-right:10px}
+.price-card .btn{width:100%;text-align:center}
+.note{text-align:center;color:#716b80;font-size:11px;margin-top:20px}
+footer{border-top:1px solid #ffffff12;padding:30px 8%;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:#777184;font-size:12px}
+footer a{color:#a69bbd;text-decoration:none}
+@media(max-width:700px){nav{padding:0 5%;height:68px}nav a{margin-left:10px;font-size:11px}.logo{font-size:17px}.cards{grid-template-columns:1fr}.prices{grid-template-columns:1fr}section{padding:60px 5%}.hero{min-height:490px}h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<nav>
+ <div class="logo">✦ ASTRA<span>.</span></div>
+ <div><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#account">Account</a></div>
+</nav>
+<header class="hero">
+ <div class="tag">THE NEXT GENERATION OF MINECRAFT</div>
+ <h1>ASCEND <span class="gradient">BEYOND.</span></h1>
+ <p>Meet Astra Client. A modern Minecraft experience built for players who want a clean interface, customization, and their own way to play.</p>
+ <div class="buttons"><a class="btn primary" href="#pricing">Explore Plans ↗</a><a class="btn" href="#features">Discover Astra</a></div>
+</header>
+<section id="features">
+ <div class="heading"><div class="label">WHY ASTRA</div><h2>Made to stand <span class="gradient">apart.</span></h2><p>Discover the Astra experience.</p></div>
+ <div class="cards">
+  <article class="card"><div class="icon">✧</div><h3>Clean Interface</h3><p>A sleek, modern look with a focus on clarity and usability.</p></article>
+  <article class="card"><div class="icon">⌘</div><h3>Customization</h3><p>Personalize your experience with the features supported by Astra.</p></article>
+  <article class="card"><div class="icon">◈</div><h3>Member Access</h3><p>A central place for your membership and future client downloads.</p></article>
+ </div>
+</section>
+<section id="pricing">
+ <div class="heading"><div class="label">SIMPLE PRICING</div><h2>Choose your <span class="gradient">Astra.</span></h2><p>Pick the membership that suits you.</p></div>
+ <div class="prices">
+  <article class="price-card"><div class="label">FLEXIBLE ACCESS</div><h3>Monthly</h3><div class="price">$4.99 <small>/ month</small></div><p>Access while your subscription is active.</p><ul><li>Monthly membership</li><li>Account dashboard planned</li><li>Updates according to policy</li></ul><button class="btn" onclick="alert('Checkout is not connected yet.')">Get Monthly</button></article>
+  <article class="price-card best"><div class="label">ONE-TIME PURCHASE</div><h3>Lifetime</h3><div class="price">$19.99</div><p>One payment for lifetime access, subject to terms.</p><ul><li>No recurring subscription</li><li>Account dashboard planned</li><li>Updates according to policy</li></ul><button class="btn primary" onclick="alert('Checkout is not connected yet.')">Get Lifetime</button></article>
+ </div>
+ <p class="note">Secure checkout and memberships are not connected yet.</p>
+</section>
+<section id="account">
+ <div class="heading"><div class="label">ASTRA MEMBERS</div><h2>Your account. <span class="gradient">Your space.</span></h2><p>Account login and secure downloads will be added after backend setup.</p><div class="buttons"><button class="btn" onclick="alert('Account system is not connected yet.')">Member Login</button></div></div>
+</section>
+<footer><div>✦ ASTRA CLIENT</div><div>Independent Minecraft project. Not affiliated with Mojang or Microsoft.</div><a href="mailto:support@example.com">Support placeholder</a></footer>
+</body>
+</html>
